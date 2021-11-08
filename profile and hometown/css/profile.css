@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.background{
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    font-size: 3vw;
+    line-height: 2.3vw;
+    color: white;
+    background-color: rgb(13, 13, 13);
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0; left: 0;
+    width: 26vw;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    z-index: 1000;
+}
+.intro>h2{
+    color: rgba(255, 255, 0, 0.911);
+}
+.career{
+    margin: 0.5vw;
+}
+.profile{
+    margin: 1.5vw;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 4vw;
+}
+.navbar>ul{
+    list-style: none;
+    padding: 0;
+}
+.navbar>ul>li>a{
+    display: block;
+    line-height: 3.5vw;
+    margin: 1.3vw;
+    width: 18vw;
+    height: 3.3vw;
+    background: rgb(56, 56, 56);
+    border-radius: 8vw;
+    color: white;
+    font-size: 2.9vw;
+    text-decoration: none;
+}
+.inner_background{
+    background-color: rgb(20, 20, 20);
+    margin: 2vw;
+    position:absolute;
+    top: 0; right: 0;
+    width: 69vw;
+    height: 181vw;
+    z-index: 210;
+}
+.navbar>ul>li>a:hover{
+    background: rgb(233, 233, 0);
+}
+.navbar a.active1{
+    background-color: rgb(130, 130, 0);
+}
+.navbar a.active2{
+    background-color: rgb(145, 145, 0);
+}
+.navbar a.active3{
+    background-color: rgb(160, 160, 0);
+}
+.navbar a.active4{
+    background-color: rgb(175, 175, 0);
+}
+.home{
+    color: white;
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 10vw;
+    text-align: center;
+}
+.introduce{
+    color: white;
+    font-size: 3vw;
+    line-height: 3vw;
+    margin: 2vw;
+}
+.home>h1{
+    font-size: 5vw;
+    color: yellow;
+}
+.about{
+    z-index: 210;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.card{
+    background-color: rgb(59, 59, 59);
+    width: 18vw;
+    justify-items: center;
+    text-align: center;
+    margin: 2vw;
+}   
+.card>p{
+    line-height: 1.7vw;
+    font-size: 2vw;
+    margin: 1vw;
+    color: #ffffff;
+}
+.card>h1{
+    line-height: 1.7vw;
+    font-size: 2.2vw;
+    margin: 1vw;
+    color: rgb(220, 220, 0);
+}
+.all_con{
+    background-color: rgb(20, 20, 20);
+    margin: 2vw;
+    width: 70vw;
+    height: 152vw;
+    z-index: 210;
+}
+section>h1{
+    text-align: center;
+    font-size: 4vw;
+    color: yellow;
+}
+.hr{
+    background-color: #ffffff;
+    height: 1vw;
+}
+.education{
+    z-index: 210;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.education>h1{
+    line-height: 1.7vw;
+    font-size: 2.2vw;
+    margin: 1vw;
+    color: #ffffff;
+}
+.education>p{
+    line-height: 1.7vw;
+    font-size: 2vw;
+    margin: 1vw;
+    color: #ffffff;
+}
+.card_nothing{
+    width: 18vw;
+    justify-items: center;
+    text-align: center;
+    margin: 2.5vw;
+}
+.card_nothing>p{
+    line-height: 1.7vw;
+    font-size: 2vw;
+    margin: 1vw;
+    color: #ffffff;
+}
+.card_nothing>h1{
+    line-height: 1.7vw;
+    font-size: 2.2vw;
+    margin: 1vw;
+    color: rgb(220, 220, 0);
+}
+.contact{
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    z-index: 1000;
+}
+.contact>h1{
+    color: yellow;
+    font-size: 4vw;
+}
+.adjust_img{
+    height: 3.5vw;
+    width: 3.5vw;
+    padding-top: 3vw;
+}
