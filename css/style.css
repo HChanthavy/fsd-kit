@@ -1,0 +1,52 @@
+.intro_img{
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 1.7rem;
+}
+.intro_par{
+    font-size: 1.3rem;
+}
+@media(min-width: 768px) {
+    .register-input {
+        width: 50%;
+    }
+}
+.hero_image{
+    padding: 10px;
+    text-align: center;
+}
+.hero{
+    height: 35rem;
+    width: 100%;
+    
+}
+.card-img-top{
+    width: 30%;
+    height: 30%;
+}
+.contact{
+    background-color: black;
+}
+.copyright{
+    font-size: 0.75rem;
+}
+.navb{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.aboutcard_image{
+    width: 15rem;
+    height: 10rem;
+}
+.map{
+    text-align: center;
+}
+.con_logo{
+    width: 10rem;
+    height: 5rem;
+    align-items: center;
+}
+.con_end{
+    text-align: center;
+}
